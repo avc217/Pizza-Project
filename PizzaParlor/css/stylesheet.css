@@ -1,0 +1,304 @@
+/*CSS*/
+
+p{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+li {    display:inline-block;
+    text-decoration: none;}
+body {
+padding:0;
+    text-align: center;
+	background-color: #ffffff;
+
+    font-family: 'Oswald', sans-serif;
+    color:#660000;
+}
+#total p {
+   font-family: 'Oswald', sans-serif;
+    font-size: .95em;
+    color: #003333;
+}
+.navbar-head{
+background-color:#660000;
+}
+.h2bg{
+background-color:	#003333;
+color:#fff;
+padding:5px;
+margin:0;
+}
+h3{
+	font-family: 'Oswald', sans-serif;
+    color:#660000;
+	}
+h4,
+.options_ {
+    font-family: 'Oswald', sans-serif;
+    color:#660000;
+    font-size: 1.2em;
+   
+    font-weight: bold;
+    
+}
+.container .jumbotron, .container-fluid .jumbotron{
+padding: 0;	
+}
+.container-fluid{
+margin:0;
+padding-left:0;	
+	padding-right:0;
+}
+.container{
+padding:0;	
+
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+padding:0;
+margin:0;
+}
+.row{
+margin:5px;	
+}
+.bg{
+height: auto;
+width:100%;
+
+padding: 0;
+
+}
+
+.bg2{
+height:100%;
+width:auto;
+
+padding: 0;
+
+}
+.navbar-nav > li > a{
+color:#ccc;
+} 
+.navmenu{
+
+}
+.well.bg {
+	height:auto;
+	padding: 0;
+	color: #fff;
+	 background:#660000;
+	margin:0;
+	
+}
+.navbar-default{
+background: none;
+background-color:	#660000;
+padding:5px;
+
+}
+.navbar{
+
+margin-bottom: 0;	
+}
+.jumbotron{
+padding:0;
+background:#fff;
+border-radius:20%;
+margin-bottom: 15px;
+}
+
+h1{
+padding:2px;
+}
+a,
+a:hover,
+a:visited {
+    color:floralwhite;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#body-info {
+	position:relative;
+    text-align: center;
+     margin-left: auto;
+    margin-right: auto;
+  
+    
+   
+    
+}
+
+
+#body-centered {
+	position:relative;
+    text-align: center;
+     margin-left: auto;
+    margin-right: auto;
+  
+    
+   
+
+} 
+
+table {
+	margin-top: 20px;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+.t th, td  {
+	padding:5px;
+	border: 1px solid #cccccc;
+align-content: center;
+}
+}
+#items {
+	
+	padding:10px;}
+	
+header h6{
+	color:#fff;
+float:right;
+font-size:10px;	}
+
+.header {
+
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+
+ 
+}
+.float-right {
+    float: right;
+    
+}
+.h2{
+font-size:50px;
+color:#fff;	
+	}
+.hp{
+color:#fff;	}
+.float-left {
+    float: left;
+}
+.info {
+    width: inherit;
+}
+
+
+/*form*/
+form{
+    
+    text-align: center;
+     margin-left: auto;
+    margin-right: auto;
+}
+.form {
+
+    color: #003333;
+    font-family: sans-serif;
+    padding: 10px;
+    width: 30%;
+}
+.form input{
+
+	}
+.form legend {
+    color: #900;
+    padding-top: 15px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.form label {
+	
+    font-size: .85em;
+}
+.form fieldset {
+	
+    border: 0px;
+}
+.form hr {
+    border-bottom: 0px;
+    border-top: 1px solid #ccc;
+}
+.form p {
+	padding:5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+/*button*/
+
+.button {
+    border-radius: 5px;
+    background:#900;
+    color: white;
+    width: auto;
+    height: 40px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+.button:hover {
+    background: -webkit-linear-gradient(#336666, #003333);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#336666, #003333);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#336666, #003333);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#336666, #003333);
+    /* Standard syntax */
+}
+
+
+.menu {
+
+    
+    height: auto;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color:#003333;
+	
+
+    
+}
+
+hr {width: 75%;}
+.menu{
+list-style-type: none;
+    
+}
+.menu{
+    
+    display:inline;
+    text-align: center;
+   padding:5px;
+}
+.menu a {
+
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.menu hover {
+   
+    background: #666;
+  
+}
+#os{
+    margin-left: auto;
+    margin-right: auto;
+position:relative;
+}
+
+
